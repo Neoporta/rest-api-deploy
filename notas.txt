@@ -1,0 +1,11 @@
+//inicializar el proyecto
+npm init -y
+
+//install express
+npm install express -E //E para que sea la versión exacta
+
+npm install cors -E
+
+node --watch app.js
+
+npx servor ./web
